@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>220040064 | Tugas Pert 9</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg-secondary">
+    <div class="container" style="width: 25rem">
+        <h1 class="text-center my-4 text-light">Find your score</h1>
+        <h5 class="text-light">Masukan Nilai: </h5>
+        <div class="card mt-2 p-5 bg-dark-subtle">
+            <div class="form-group mb-2">
+                <label for="kalkulus">Kalkulus</label>
+                <input type="number" id="kalkulus" class="form-control" required/>
+            </div>
+            <div class="form-group mb-2">
+                <label for="frontEnd">Front end</label>
+                <input type="number" id="frontEnd" class="form-control" required/>
+            </div>
+            <div class="form-group mb-2">
+                <label for="backEnd">Back end</label>
+                <input type="number" id="backEnd" class="form-control" required/>
+            </div>
+            <div class="form-group mb-2">
+                <label for="basisData">Basis data</label>
+                <input type="number" id="basisData" class="form-control" required/>
+            </div>
+            <button onclick="tampilkan()" class="btn btn-primary">Submit</button>
+        </div>
+        <h5 class="text-light my-3">Hasil:</h5>
+        <div class="card p-5 mb-3 bg-success-subtle">
+            <div id="hasil"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
